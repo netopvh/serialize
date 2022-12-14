@@ -1,0 +1,45 @@
+{
+    "name": "netopvh/serializer",
+    "description": "['Package to generate endpoints serialized']",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NetoPvh\\ResponseSerialize\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NetoPvh\\ResponseSerialize\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eilem",
+            "email": "eilem@gmail.com"
+        },
+        {
+            "name": "Angelo Neto",
+            "email": "netopvh@gmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4|^8.0|8.1",
+        "ext-json": "*",
+        "illuminate/support": "^8.0|^9.0",
+        "illuminate/console": "^8.0|^9.0",
+        "illuminate/container": "^8.0|^9.0",
+        "illuminate/filesystem": "^8.0|^9.0",
+        "illuminate/config": "^8.0|^9.0",
+        "illuminate/database": "^8.0|^9.0",
+        "nesbot/carbon": "^2.63"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^v6.18.0",
+        "phpunit/phpunit": "^v9.5.5"
+    }
+}

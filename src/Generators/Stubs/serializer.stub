@@ -1,0 +1,41 @@
+<?php
+
+$NAMESPACE$
+
+use NetoPvh\ResponseSerialize\Serialize\BaseSerialize;
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * Class $CLASS$Serialize.
+ *
+ * @package $NAMESPACE$
+ */
+class $CLASS$Serialize extends BaseSerialize
+{
+  /**
+   * Seta dados no retorno para serializaçao de um unico registro
+   *
+   * @param Model $model
+   * @return array
+   */
+  public function toSerialize(Model $model): array
+  {}
+
+  /**
+   * Seta dados no retorno para serializaçao de uma lista de registros
+   *
+   * @param Model $model
+   * @return array
+   */
+  public function toList(Model $model): array
+  {}
+
+  /**
+   * Seta dados no retorno de uma lista serializada
+   *
+   * @param array $data
+   * @return array
+   */
+  public function colToSerialize(array $data): array
+  {}
+}

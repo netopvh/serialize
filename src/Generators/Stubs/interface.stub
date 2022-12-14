@@ -1,0 +1,15 @@
+<?php
+
+$NAMESPACE$
+
+use NetoPvh\ResponseSerialize\Interfaces\IResponseSerialize;
+
+/**
+ * Interface $CLASS$Serialize.
+ *
+ * @package $NAMESPACE$
+ */
+interface I$CLASS$Serialize extends IResponseSerialize
+{
+    //
+}
