@@ -97,9 +97,9 @@ interface IResponseSerialize
   /**
    * Obtém a data hora da geração do resposta a ser retornado.
    *
-   * @return DateTime
+   * @return string
    */
-  public function getGeneratedAt(): DateTime;
+  public function getGeneratedAt(): string;
 
   /**
    * Obtém a quantidade de registros retornados.

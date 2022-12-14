@@ -171,7 +171,7 @@ abstract class BaseSerialize implements IResponseSerialize
    *
    * @return array
    */
-  public function getGeneratedAt(): DateTime
+  public function getGeneratedAt(): string
   {
     return $this->generatedAt;
   }
@@ -287,8 +287,8 @@ abstract class BaseSerialize implements IResponseSerialize
   /**
    * Seta dados no retorno de uma lista serializada
    *
-   * @param array $data
+   * @param Collection $data
    * @return array
    */
-  abstract function colToSerialize(array $data): array;
+  abstract function colToSerialize($data): array;
 }
